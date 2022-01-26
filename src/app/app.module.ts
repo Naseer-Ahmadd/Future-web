@@ -8,6 +8,9 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { HTMLComponent } from './html/html.component';
+import { CssComponent } from './css/css.component';
+import { BootstrapComponent } from './bootstrap/bootstrap.component';
+import { JavascriptComponent } from './javascript/javascript.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { HTMLComponent } from './html/html.component';
     CarouselComponent,
     HomeComponent,
     FooterComponent,
-    HTMLComponent
+    HTMLComponent,
+    CssComponent,
+    BootstrapComponent,
+    JavascriptComponent
   ],
   imports: [
     BrowserModule,
