@@ -11,6 +11,7 @@ import { HTMLComponent } from './html/html.component';
 import { CssComponent } from './css/css.component';
 import { BootstrapComponent } from './bootstrap/bootstrap.component';
 import { JavascriptComponent } from './javascript/javascript.component';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { JavascriptComponent } from './javascript/javascript.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]

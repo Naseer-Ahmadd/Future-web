@@ -1,17 +1,20 @@
 <header > 
     <nav class="navbar navbar-expand-lg fixed-top   navbar-light bg-light py-3"  >
         <div class="container-fluid" >
-            <div class="logo" style="width: 200px; height: 45px; margin-right: 40px; cursor: pointer;" >
-            <img src="assets/images/lg.gif" routerLink="" alt="" height="45px" width="200px">
-
+          
+            <div class="navbar-brand" style="cursor: pointer;">
+              <img src="assets/images/lg.gif" routerLink="" alt="" height="45px" width="200px">
             </div>
-          <a class="navbar-brand" href="/index.html">HOME</a>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="" aria-current="page">HOME</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link " routerLink="html" aria-current="page" >HTML</a>
               </li>
@@ -24,6 +27,9 @@
               <li class="nav-item">
                 <a class="nav-link "  routerLink="javascript" href="#">JAVASCRIPT</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link " [href]="" >ABOUT US</a>
+              </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" onkeyup="search_words()" placeholder="Search" aria-label="Search">
@@ -34,19 +40,4 @@
       </nav>
 </header>
 
-<script>
- function search_words(){
-    let input = document.getElementById('searchbar').value
-    input=input.toLowerCase();
-    let x = document.getElementsByClassName('content');
-      
-    for (i = 0; i < x.length; i++) { 
-        if (!x[i].innerHTML.toLowerCase().includes(input)) {
-            x[i].style.display="none";
-        }
-        else {
-            x[i].style.display="list-item";                 
-        }
-    } 
-  }
-</script>
+

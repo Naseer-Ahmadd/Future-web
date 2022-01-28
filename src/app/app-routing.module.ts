@@ -9,7 +9,9 @@ const routes: Routes = [
   { path: '', component:HomeComponent },
   { path: 'html', component: HTMLComponent},
   { path: 'css', component: CssComponent},
-  { path: 'javascript', component:JavascriptComponent }
+  { path: 'javascript', component:JavascriptComponent },
+  { path: '#why-css', component:CssComponent}
+  // { path: 'portfolioi', component: "https://naseer-ahmadd.github.io/Myportfolio/"}
 
 
 ];
