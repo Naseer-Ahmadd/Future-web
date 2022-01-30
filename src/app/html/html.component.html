@@ -4,93 +4,36 @@
 
 
 
-      <div class='sidebar pt-4' id='sidenav'>
-          <div id='leftmenuinner'>
-            <div id='leftmenuinnerinner'>
+<div class='sidebar pt-4' id='sidenav'>
+  <div id='leftmenuinner'>
+    <div id='leftmenuinnerinner'>
 
         <h2 class="left"><span class="left_h2">HTML</span> Tutorial</h2>
-        <!-- <a target="_top" href="#html_header">HTML HOME</a> -->
-        <a  href="#intro">HTML Introduction</a>
-        <a target="_top" href="" (click)="linkClick('part1')">HTML Editors</a>
-        <!-- <a target="_top" href="#editors" (click)="linkClick('part1')">HTML Editors</a> -->
-        <a target="_top" href="html_basic.asp">HTML Basic</a>
-        <a target="_top" href="html_elements.asp">HTML Elements</a>
-        <a target="_top" href="html_attributes.asp">HTML Attributes</a>
-        <a target="_top" href="html_headings.asp">HTML Headings</a>
-        <a target="_top" href="html_paragraphs.asp">HTML Paragraphs</a>
-        <a target="_top" href="html_styles.asp">HTML Styles</a>
-        <a target="_top" href="html_formatting.asp">HTML Formatting</a>
-        <a target="_top" href="html_quotation_elements.asp">HTML Quotations</a>
-        <a target="_top" href="html_comments.asp">HTML Comments</a>
-        <a target="_top" href="html_colors.asp">HTML Colors</a>
-        <div class="tut_overview">
-          <a target="_top" href="html_colors.asp">Colors</a>
-          <a target="_top" href="html_colors_rgb.asp">RGB</a>
-          <a target="_top" href="html_colors_hex.asp">HEX</a>
-          <a target="_top" href="html_colors_hsl.asp">HSL</a>
-        </div>
-        <a target="_top" href="html_css.asp">HTML CSS</a>
-        <a target="_top" href="html_links.asp">HTML Links</a>
-        <div class="tut_overview">
-          <a target="_top" href="html_links.asp">Links</a>
-          <a target="_top" href="html_links_colors.asp">Link Colors</a>
-          <a target="_top" href="html_links_bookmarks.asp">Link Bookmarks</a>
-        </div>
-        <a target="_top" href="html_images.asp">HTML Images</a>
-        <div class="tut_overview">
-          <a target="_top" href="html_images.asp">Images</a>
-          <a target="_top" href="html_images_imagemap.asp">Image Map</a>
-          <a target="_top" href="html_images_background.asp">Background Images</a>
-          <a target="_top" href="html_images_picture.asp">The Picture Element</a>
-        </div>
-        <a target="_top" href="html_favicon.asp">HTML Favicon</a>
-        <a target="_top" href="html_tables.asp">HTML Tables</a>
-        <div class="tut_overview">
-          <a target="_top" href="html_tables.asp">HTML Tables</a>
-          <a target="_top" href="html_table_borders.asp">Table Borders</a>
-          <a target="_top" href="html_table_sizes.asp">Table Sizes</a>
-          <a target="_top" href="html_table_headers.asp">Table Headers</a>
-          <a target="_top" href="html_table_padding_spacing.asp">Padding &amp; Spacing</a>
-          <a target="_top" href="html_table_colspan_rowspan.asp">Colspan &amp; Rowspan</a>
-          <a target="_top" href="html_table_styling.asp">Table Styling</a>
-          <a target="_top" href="html_table_colgroup.asp">Table Colgroup</a>
-        </div>
-        
-        
-        
-        <a target="_top" href="html_lists.asp">HTML Lists</a>
-        <div class="tut_overview">
-        <a target="_top" href="html_lists.asp">Lists</a>
-        <a target="_top" href="html_lists_unordered.asp">Unordered Lists</a>
-        <a target="_top" href="html_lists_ordered.asp">Ordered Lists</a>
-        <a target="_top" href="html_lists_other.asp">Other Lists</a>
-        </div>
-        <a target="_top" href="html_blocks.asp">HTML Block &amp; Inline</a>
-        <a target="_top" href="html_classes.asp">HTML Classes</a>
-        <a target="_top" href="html_id.asp">HTML Id</a>
-        <a target="_top" href="html_iframe.asp">HTML Iframes</a>
-        <a target="_top" href="html_scripts.asp">HTML JavaScript</a>
-        <a target="_top" href="html_filepaths.asp">HTML File Paths</a>
-        <a target="_top" href="html_head.asp">HTML Head</a>
-        <a target="_top" href="html_layout.asp">HTML Layout</a>
-        <a target="_top" href="html_responsive.asp">HTML Responsive</a>
-        <a target="_top" href="html_computercode_elements.asp">HTML Computercode</a>
-        <a target="_top" href="html5_semantic_elements.asp">HTML Semantics</a>
-        <a target="_top" href="html5_syntax.asp">HTML Style Guide</a>
-        <a target="_top" href="html_entities.asp">HTML Entities</a>
-        <a target="_top" href="html_symbols.asp">HTML Symbols</a>
-        <a target="_top" href="html_emojis.asp">HTML Emojis</a>
-        <a target="_top" href="html_charset.asp">HTML Charset</a>
-        <a target="_top" href="html_urlencode.asp">HTML URL Encode</a>
-        <a target="_top" href="html_xhtml.asp">HTML vs. XHTML</a>
-        <br>
+        <a routerLink="." [fragment]="intro">HTML Introduction</a>
+        <a routerLink="." [fragment]="history">HTML History</a>
+        <a routerLink="." [fragment]="headings">HTML Headings</a>
+        <a routerLink="." [fragment]="paragraphs">HTML Paragraphs</a>
+        <a routerLink="." [fragment]="elements">HTML Elements</a>
+        <a routerLink="." [fragment]="formatting">HTML Formatting</a>
+        <a routerLink="." [fragment]="comments">HTML Comments</a>
+        <a routerLink="." [fragment]="links">HTML Links</a>
+        <a routerLink="." [fragment]="images">HTML Images</a>
+        <a routerLink="." [fragment]="favicon">HTML Favicon</a>
+        <a routerLink="." [fragment]="tables">HTML Tables</a>
+        <a routerLink="." [fragment]="lists">HTML Lists</a>
+        <a routerLink="." [fragment]="inline_block">HTML Block &amp; Inline</a>
+        <a routerLink="." [fragment]="classes">HTML Classes</a>
+        <a routerLink="." [fragment]="id_att">HTML Id</a>
+        <a routerLink="." [fragment]="head">HTML Head</a>
+        <a routerLink="." [fragment]="layout">HTML Layout</a>
+        <a routerLink="." [fragment]="entities">HTML Entities</a>        
+          <br>
         <h2 class="left"><span class="left_h2">HTML</span> Forms</h2>
-        <a target="_top" href="html_forms.asp">HTML Forms</a>
-        <a target="_top" href="html_forms_attributes.asp">HTML Form Attributes</a>
-        <a target="_top" href="html_form_elements.asp">HTML Form Elements</a>
-        <a target="_top" href="html_form_input_types.asp">HTML Input Types</a>
-        <a target="_top" href="html_form_attributes.asp">HTML Input Attributes</a>
-        <a target="_top" href="html_form_attributes_form.asp">HTML Input Form Attributes</a>
+        <a routerLink="." [fragment]="forms">HTML Forms</a>
+        <a routerLink="." [fragment]="form_attr">HTML Form Attributes</a>
+        <a routerLink="." [fragment]="form_elements">HTML Form Elements</a>
+        <a routerLink="." [fragment]="form_input_types">TML Input Types</a>
+        <a routerLink="." [fragment]="input_attr">HTML Input Attributes</a>
       
 
         <br>
@@ -98,14 +41,13 @@
         <br>
       
               <br><br>
-            </div>
-          </div>
-      </div>
+    </div>
+  </div>
+</div>
 
 
-    <div class="content mt-2" style="margin-left: 290px; width: 870px; ">
+  <div class="content mt-2" style="margin-left: 290px; width: 870px; ">
         
-
         <div id="intro">
                 <h1>HTML Introduction</h1>
               <ul>
@@ -115,61 +57,797 @@
                   <li>HTML consists of a series of elements</li>
               </ul>
               <br>
-        </div>
-
-        <h1>A simple HTML document</h1>
-
-        <div class="w3-example">
-            <h3>Example</h3>
-            <div class="w3-code notranslate htmlHigh">
-            &lt;!DOCTYPE html&gt;<br>
-            &lt;html&gt;<br>&lt;head&gt;<br>&lt;title&gt;Page Title&lt;/title&gt;<br>
-            &lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;h1&gt;This is a Heading&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br><br>
-            &lt;/body&gt;<br>&lt;/html&gt;
-            </div>
-        </div>
-
-        
-        <div id="editors">
-            <h1>Learn HTML Using Notepad or TextEdit</h1>
-            <p>Web pages can be created and modified by using professional HTML editors.</p>
-            <p>However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).</p>
-            <p>We believe in that using a simple text editor is a good way to learn HTML. </p>
-        </div>
-
-
-        <div class="w3-example" id="ex-3">
-            <h3>Html Basics</h3>
-            <div class="w3-code notranslate htmlHigh">
-            &lt;!DOCTYPE html&gt;<br>
-            &lt;html&gt;<br>&lt;head&gt;<br>&lt;title&gt;Page Title&lt;/title&gt;<br>
-            &lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;h1&gt;This is a Heading&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br><br>
-            &lt;/body&gt;<br>&lt;/html&gt;
-            </div>
-        </div>
-
-
         
 
+          <h1>A simple HTML document</h1>
 
-        <div class="w3-example">
-            <h3>Example</h3>
+          <div class="w3-example">
+              <h3>Example</h3>
+              <div class="w3-code notranslate htmlHigh">
+              &lt;!DOCTYPE html&gt;<br>
+              &lt;html&gt;<br>&lt;head&gt;<br>&lt;title&gt;Page Title&lt;/title&gt;<br>
+              &lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;h1&gt;This is a Heading&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br><br>
+              &lt;/body&gt;<br>&lt;/html&gt;
+              </div>
+          </div>
+            <br>
+            <h3>Example Explained</h3>
+              <ul>
+                <li>The <code class="w3-codespan">&lt;!DOCTYPE html&gt;</code> declaration defines 
+                that this document is an HTML5 document</li>
+                <li>The <code class="w3-codespan">&lt;html&gt;</code> element is the root element of an HTML 
+                page</li>
+                <li>The <code class="w3-codespan">&lt;head&gt;</code> element contains meta information about the 
+                HTML page</li>
+                <li>The <code class="w3-codespan">&lt;title&gt;</code> element specifies a title for the 
+                HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+                <li>The <code class="w3-codespan">&lt;body&gt;</code> element defines the 
+                document's body, and is a container for all the visible contents, such as 
+                headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+                <li>The <code class="w3-codespan">&lt;h1&gt;</code> element defines a large heading</li>
+                <li>The <code class="w3-codespan">&lt;p&gt;</code> element defines a paragraph</li>
+              </ul>
+           </div>   
+            <hr>
+            <br>
+
+            <div id="history">
+              <h2 >HISTORY OF HTML</h2>
+                    <p class="fs-5 mb-4">
+                      1989&nbsp;&nbsp;&nbsp;&nbsp;- GML(Generalised Markup Language)<br>
+                      1991&nbsp;&nbsp;&nbsp;&nbsp;- SGML	(Standard GML)<br>
+                      1994&nbsp;&nbsp;&nbsp;&nbsp;- HTML<br>
+                      2008&nbsp;&nbsp;&nbsp;&nbsp;- HTML 5<br>
+                      2016&nbsp;&nbsp;&nbsp;&nbsp;- HTML 5.1</p>
+            </div>
+              <hr>
+
+            <div id="headings">
+              <h1 >HTML <span class="color_h1">Headings</span></h1>
+              <p class="intro">HTML headings are titles or subtitles that you want to display on a webpage.</p>
+                <div class="w3-example">
+                  <h3>Example</h3>
+                  <div class="w3-code notranslate htmlHigh">
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                  </div>
+                </div>
+
+                <p>HTML headings are defined with the <code class="">&lt;h1&gt;</code> to <code class="">&lt;h6&gt;</code> tags.</p>
+                <p><code class="w3-codespan">&lt;h1&gt;</code> defines the most important heading. <code class="w3-codespan">&lt;h6&gt;</code> defines the least important heading.</p>
+            </div>
+                <hr>
+
+            <div id="paragraphs">
+                <h1>HTML <span >Paragraphs</span></h1>
+                <p>The HTML <code class="w3-codespan">&lt;p&gt;</code> element defines a paragraph.</p>
+                <p>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.</p>
+
+                <div class="w3-example">
+                  <h3>Example</h3>
+                  <div class="w3-code notranslate htmlHigh">
+                      &lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+                      &lt;p&gt;This is another paragraph.&lt;/p&gt;
+                  </div>
+                </div>
+
+            </div>
+                <br><br>
+                  <hr>
+            <div id="elements">
+                  <h2 id="elements">HTML Elements</h2>
+
+                  <p>The HTML <strong>element</strong> is everything from the start tag to the end tag:</p>
+                  
+                  <div style="font-size:20px;padding:10px;margin-bottom:10px;">
+                  <span style="color:brown"><span style="color:mediumblue">&lt;</span>tagname<span style="color:mediumblue">&gt;</span></span>Content goes here...<span style="color:brown"><span style="color:mediumblue">&lt;</span>/tagname<span style="color:mediumblue">&gt;</span></span>
+                  </div>
+
+                  <div style="font-size:20px;padding:10px;margin-bottom:10px;">
+                    <span style="color:brown"><span style="color:mediumblue">&lt;<span style="color:brown">h1</span>&gt;</span></span>My 
+                      First Heading<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h1<span style="color:mediumblue">&gt;</span></span>
+                    </div>
+                    
+                    <div style="font-size:20px;padding:10px;margin-bottom:10px;">
+                    <span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>My first paragraph.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span>
+                    </div>
+                    
+                  <table class="table notranslate">
+                    <tr>
+                      <th>Start tag</th>
+                      <th>Element content</th>
+                      <th>End tag</th>
+                    </tr>
+                    <tr>
+                      <td>&lt;h1&gt;</td>
+                      <td>My First Heading</td>
+                      <td>&lt;/h1&gt;</td>
+                    </tr>
+                    <tr>
+                      <td>&lt;p&gt;</td>
+                      <td>My first paragraph.</td>
+                      <td>&lt;/p&gt;</td>
+                    </tr>
+                    <tr>
+                      <td>&lt;br&gt;</td>
+                      <td><em>none</em></td>
+                      <td><em>none</em></td>
+                    </tr>
+                  </table>  
+            </div>
+                  <br><br>
+                  <hr>
+
+        <div id="attributes">
+          <h2>HTML Attributes</h2>
+          <ul>
+            <li>All HTML elements can have <b>attributes</b></li>
+            <li>Attributes provide <b>additional information</b> about elements</li>
+            <li>Attributes are always specified in <b>the start tag</b></li>
+            <li>Attributes usually come in name/value pairs like: <b>name=&quot;value&quot;</b></li>
+          </ul>
+          <hr>
+
+          <h3>The href Attribute</h3>
+          <p>The <code class="w3-codespan">&lt;a&gt;</code> tag defines a hyperlink. The 
+          <code class="w3-codespan">href</code> attribute specifies the URL of the page 
+          the link goes to:</p>
+
+          <hr>
+
+          <h3>The src Attribute</h3>
+          <p>The <code class="w3-codespan">&lt;img&gt;</code> tag is used to embed an 
+          image in an HTML page. The <code class="w3-codespan">src</code> attribute 
+          specifies the path to the image to be displayed:</p>
+
+          <hr>
+          <p>There are two ways to specify the URL in the <code class="w3-codespan">src</code> 
+            attribute:</p>
+            <p><strong>1. Absolute URL</strong> - Links to an external image that is hosted 
+            on another website. Example: <span style="word-wrap: break-word;">src=&quot;https://www.w3schools.com/images/img_girl.jpg&quot;</span>.</p>
+            <p><strong>Notes:</strong> External images might be under copyright. If you do 
+            not get permission to use it, you may be in violation of copyright laws. In 
+            addition, you cannot control external images; it can suddenly be removed or 
+            changed.</p>
+            <p><strong>2. Relative URL</strong> - Links to an image that is hosted within 
+            the website. Here, the URL does not include the domain name. If the URL begins 
+            without a slash, it will be relative to the current page. Example: src=&quot;img_girl.jpg&quot;. 
+            If the URL begins with a slash, it will be relative to the domain. Example: src=&quot;/images/img_girl.jpg&quot;.</p>
+            <p><strong>Tip:</strong> It is almost always best to use relative URLs. They 
+            will not break if you change domain.</p>
+            <hr>
+
+            <h3>The width and height Attributes</h3>
+            <p>The <code class="w3-codespan">&lt;img&gt;</code> tag should also contain the
+            <code class="w3-codespan">width</code> and <code class="w3-codespan">
+            height</code> attributes, which specifies the width and 
+              height of the image (in pixels):</p>
+        </div>
+
+        <div id="formatting">
+          
+            <h2>HTML Formatting Elements</h2>
+
+            <p>Formatting elements were designed to display special types of text:</p>
+            <ul>
+            <li><code class="w3-codespan">&lt;b&gt;</code> - Bold text</li>
+            <li><code class="w3-codespan">&lt;strong&gt;</code> - Important text</li>
+            <li><code class="w3-codespan">&lt;i&gt;</code> - Italic text</li>
+            <li><code class="w3-codespan">&lt;em&gt;</code> - Emphasized text</li>
+            <li><code class="w3-codespan">&lt;mark&gt;</code> - Marked text</li>
+            <li><code class="w3-codespan">&lt;small&gt;</code> - Smaller text</li>
+            <li><code class="w3-codespan">&lt;del&gt;</code> - Deleted text</li>
+            <li><code class="w3-codespan">&lt;ins&gt;</code> - Inserted text</li>
+            <li><code class="w3-codespan">&lt;sub&gt;</code> - Subscript text</li>
+            <li><code class="w3-codespan">&lt;sup&gt;</code> - Superscript text</li>
+            </ul>
+            <hr>
+        </div>
+
+        <br>
+
+        <div id="comments">
+          <h1>HTML <span class="color_h1">Comments</span></h1>
+          <p class="intro">HTML comments are not displayed in the browser, but they can 
+            help document your HTML source code.</p>
+            <hr>
+            
+            <h2>HTML Comment Tag</h2>
+            <p>You can add comments to your HTML source by using the following syntax:</p>
+            <div class="w3-example">
             <div class="w3-code notranslate htmlHigh">
-            &lt;!DOCTYPE html&gt;<br>
-            &lt;html&gt;<br>&lt;head&gt;<br>&lt;title&gt;Page Title&lt;/title&gt;<br>
-            &lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;h1&gt;This is a Heading&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br><br>
-            &lt;/body&gt;<br>&lt;/html&gt;
+            &lt;!-- Write your comments here --&gt;
+            </div></div>
+            <p>Notice that there is an exclamation point (!) in the start tag, but not in the 
+            end tag.</p>
+            <div class="w3-panel w3-note">
+              <p><strong>Note:</strong> Comments are not displayed by the browser, but they can help document your HTML source code.</p>
             </div>
         </div>
+        <br>
 
-        <div class="html-basics">
-          <h1>HTML Basics</h1>
-          <p>All HTML documents must start with a document type declaration: &lt;!DOCTYPE html&gt;.  </p>
-              <p>The HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt;.</p>
+        <hr>
+
+        <div id="links">
+          <h1>HTML <span class="color_h1">Links</span></h1>
+          <p class="intro">Links are found in nearly all web pages. Links allow users to click their way from page to page.</p>
+          
+
+          <h3>HTML Links - Hyperlinks</h3>
+          <p>HTML links are hyperlinks.</p>
+          <p>You can click on a link and jump to another document.</p>
+          <p>When you move the mouse over a link, the mouse arrow will turn into a little hand.</p>
+          <div class="w3-panel w3-note">
+            <p><strong>Note:</strong> A link does not have to be text. A link can be an image 
+            or any other HTML element!</p>
+          </div>
+          <hr>
+          <h3>HTML Links - Syntax</h3>
+          <p>The HTML <code class="w3-codespan">&lt;a&gt;</code> tag defines a hyperlink. 
+          It has the following syntax:</p>
+          <div class="w3-example">
+          <div class="w3-code notranslate htmlHigh">
+          &lt;a href=&quot;<i>url</i>&quot;&gt;<i>link text</i>&lt;/a&gt;
+          </div>
+          </div>
+
+          <p>The most important attribute of the <code class="w3-codespan">&lt;a&gt;</code> <a> element is the <code class="w3-codespan">
+          href</code> attribute, which indicates the link's destination.</a></p>
+          <p>The <em>link text</em> is the part that will be visible to the reader.</p>
+          <p>Clicking on the link text, will send the reader to the specified URL address.</p>
+
+
         </div>
-   
-        <div class="w3-example">
+               <hr>
+               
+        <div id="images">
+          <h1>HTML <span class="color_h1">Images</span></h1>
+          <p class="intro">Images can improve the design and the appearance of a web page.</p>
+          <hr>
+          
+          <div class="row" style="text-align:center">
+            <div class="col m4" style="background-image:url('assets/images/img1.jpg');background-size:cover;height:300px;">
+            </div>
+            <div class="col m4" style="background-image:url('assets/images/1.jpg');background-size:cover;height:300px;">
+            </div>
+            <div class="col m4" style="background-image:url('assets/images/post_01.jpg');background-size:cover;height:300px;">
+            </div>
+          </div>
+
+          <div class="w3-example">
+            <h3>Example</h3>
+            <div class="w3-code notranslate htmlHigh">
+             &lt;img src=&quot;office.jpg&quot; 
+            alt=&quot;office image&quot;&gt;<br>
+            &lt;img src=&quot;img_girl.jpg&quot; 
+            alt=&quot;presentation&quot;&gt;<br>
+            &lt;img src=&quot;blur_img.jpg&quot; 
+            alt=&quot;blured image&quot;&gt;<br>
+            </div>
+            
+            </div>
+
+            <h3>HTML Images Syntax</h3>
+            <p>The HTML <code class="w3-codespan">&lt;img&gt;</code> tag is used to embed an 
+            image in a web page.</p>
+            <p>Images are not technically inserted into a web page; images are linked to web 
+            pages. The <code class="w3-codespan">&lt;img&gt;</code> tag creates a holding 
+            space for the referenced image.</p>
+            <p>The <code class="w3-codespan">&lt;img&gt;</code> tag&nbsp;is empty, it contains attributes only, and does not 
+            have a closing tag.</p>
+            <p>The <code class="w3-codespan">&lt;img&gt;</code> tag has two required 
+            attributes:</p>
+            <ul>
+              <li>src - Specifies the path to the image</li>
+              <li>alt - Specifies an alternate text for the image</li>
+            </ul>
+        </div>
+        <br>
+
+        <div id="favicon">
+          <h1>HTML <span class="color_h1">Favicon</span></h1>
+          <p class="intro">A favicon is a small image displayed next to the page title in the browser tab.</p>
+          <hr>
+          
+          <h3>How To Add a Favicon in HTML</h3>
+          <p>You can use any image you like as your favicon. You can also create your own 
+          favicon on sites like <a href="https://favicon.cc" target="_blank">https://favicon.cc</a>.</p>
+          
+          <div class="w3-panel w3-note">
+          <p><strong>Tip:</strong> A favicon is a small image, so it should be a simple image with high contrast.</p>
+          </div>
+          
+          <p>A favicon image is displayed to the left of the page title in the browser tab, like this:</p>
+          <img src="https://www.w3schools.com/html/img_favicon.png" alt="Example of favicon" style="width:485px;height:82px;">
+          <br>
+          
+          <br>
+          <p>To add a favicon to your website, either save your favicon image to the root 
+          directory of your webserver, or create a folder in the root directory 
+          called images, and save your favicon image in this folder. A common name for a favicon image is &quot;favicon.ico&quot;.</p>
+          <p>Next, add a <code class="w3-codespan">&lt;link&gt;</code> element to your &quot;index.html&quot; file, 
+          after the <code class="w3-codespan">&lt;title&gt;</code> element, like this:</p>
+          
+          <div class="w3-example">
           <h3>Example</h3>
+          <div class="w3-code notranslate htmlHigh">
+           &lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;head&gt;<br>&nbsp; &lt;title&gt;My Page 
+            Title&lt;/title&gt;<br>&nbsp; &lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;/images/favicon.ico&quot;&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br>
+            <br>&lt;h1&gt;This is a Heading&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;</div>
+          </div>
+          
+          <p>Now, save the &quot;index.html&quot; file and reload it in your browser. Your browser tab should now 
+          display your favicon image to the left of the page title.</p>
+          <hr>
+          
+          
+        </div>
+        <br>
+
+        <div id="tables">
+          <h1>HTML <span class="color_h1">Tables</span></h1>
+          <p class="intro">HTML tables allow web developers to arrange data into rows and 
+            columns.</p>
+
+            <div class="w3-example">
+              <h3>Example</h3>
+              <div class="">
+              <table  class="table  table-bordered bg-white ">
+                <tr>
+                  <th>Company</th>
+                  <th>Contact</th>
+                  <th>Country</th>
+                </tr>
+                <tr>
+                  <td>Alfreds Futterkiste</td>
+                  <td>Maria Anders</td>
+                  <td>Germany</td>
+                </tr>
+                <tr>
+                  <td>Centro comercial Moctezuma</td>
+                  <td>Francisco Chang</td>
+                  <td>Mexico</td>
+                </tr>
+                <tr>
+                  <td>Ernst Handel</td>
+                  <td>Roland Mendel</td>
+                  <td>Austria</td>
+                </tr>
+                <tr>
+                  <td>Island Trading</td>
+                  <td>Helen Bennett</td>
+                  <td>UK</td>
+                </tr>
+                <tr>
+                  <td>Laughing Bacchus Winecellars</td>
+                  <td>Yoshi Tannamuri</td>
+                  <td>Canada</td>
+                </tr>
+                <tr>
+                  <td>Magazzini Alimentari Riuniti</td>
+                  <td>Giovanni Rovelli</td>
+                  <td>Italy</td>
+                </tr>
+              </table>
+              </div>
+              
+              </div>
+
+              <h2>Define an HTML Table</h2>
+              <p>A table in HTML consists of table cells inside rows and columns</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <p>A simple HTML table:</p>
+              <div class="w3-code notranslate htmlHigh">
+              &lt;table&gt;<br>&nbsp;
+              &lt;tr&gt;<br>&nbsp;&nbsp;&nbsp; &lt;th&gt;Company&lt;/th&gt;<br>
+              &nbsp;&nbsp;&nbsp; &lt;th&gt;Contact&lt;/th&gt; <br>&nbsp;&nbsp;&nbsp; &lt;th&gt;Country&lt;/th&gt;<br>
+              &nbsp;
+              &lt;/tr&gt;<br>&nbsp;
+              &lt;tr&gt;<br>&nbsp; &nbsp; &lt;td&gt;Alfreds Futterkiste&lt;/td&gt;<br>
+              &nbsp;&nbsp;&nbsp; &lt;td&gt;Maria 
+                Anders&lt;/td&gt; <br>&nbsp;&nbsp;&nbsp; &lt;td&gt;Germany&lt;/td&gt;<br>
+              &nbsp;
+              &lt;/tr&gt;<br>&nbsp; &lt;tr&gt;<br>&nbsp;&nbsp;&nbsp; &lt;td&gt;Centro 
+                comercial Moctezuma&lt;/td&gt;<br>
+              &nbsp;&nbsp;&nbsp; &lt;td&gt;Francisco 
+                Chang&lt;/td&gt; <br>&nbsp;&nbsp;&nbsp; &lt;td&gt;Mexico&lt;/td&gt;<br>
+              &nbsp; &lt;/tr&gt;<br>&lt;/table&gt;
+              </div>
+              
+            </div>
+        </div>
+
+            <hr>
+
+      <div id="lists">
+          <h1>HTML <span class="color_h1">Lists</span></h1>
+          <p class="intro">HTML lists allow web developers to group a set of related items in lists.</p>
+
+          <div class="w3-example">
+            <h3>Example</h3>
+            
+            <div class="row w3-code" >
+              <div class="col ">
+              <p>An unordered HTML list:</p>
+                    <ul>
+                      <li>Item</li>
+                      <li>Item</li>
+                      <li>Item</li>
+                      <li>Item</li>    
+                    </ul>
+              </div>
+              <div class="col w3-half">
+              <p>An ordered HTML list:</p>
+                    <ol>
+                      <li>First item</li>
+                      <li>Second item</li>
+                      <li>Third item</li>
+                      <li>Fourth item</li>  
+                    </ol>
+              </div>
+            
+            </div>
+           
+          </div>
+            <hr>
+
+            <h3>Unordered HTML List</h3>
+            <p>An unordered list starts with the <code class="w3-codespan">&lt;ul&gt;</code> tag. Each list item starts with the 
+            <code class="w3-codespan">&lt;li&gt;</code> tag.</p>
+            <p>The list items will be marked with bullets (small black circles) by default:</p>
+            <div class="w3-example">
+            <h3>Example</h3>
+            <div class="w3-code notranslate htmlHigh">
+            &lt;ul&gt;<br>
+            &nbsp;
+            &lt;li&gt;Coffee&lt;/li&gt;<br>&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>
+            &nbsp;
+            &lt;li&gt;Milk&lt;/li&gt;<br>
+            &lt;/ul&gt;
+            </div>
+            <p>
+            
+            </p>
+            </div>
+            <hr>
+            
+            <h3>Ordered HTML List</h3>
+            <p>An ordered list starts with the <code class="w3-codespan">&lt;ol&gt;</code> tag. Each list item starts with the <code class="w3-codespan">&lt;li&gt;</code> tag.</p>
+            <p>The list items will be marked with numbers by default:</p>
+            <div class="w3-example">
+            <h3>Example</h3>
+            <div class="w3-code notranslate htmlHigh">
+            &lt;ol&gt;<br>
+            &nbsp;
+            &lt;li&gt;Coffee&lt;/li&gt;<br>&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>
+            &nbsp;
+            &lt;li&gt;Milk&lt;/li&gt;<br>
+            &lt;/ol&gt;
+            </div>
+            
+            </div>
+      </div>
+
+      <hr>
+      <div id="inline_block">
+        <h1>HTML <span class="color_h1">Block and Inline Elements</span></h1>
+        <p class="intro">Every HTML element has a default display value, depending on what type 
+          of element it is.</p>
+          <p class="intro">There are two display values: block and inline.</p>
+        
+          
+          <h2>Block-level Elements</h2>
+          <p>A block-level element always starts on a new line.</p>
+          <p>A block-level element always takes up the full width available 
+          (stretches out to the left and right as far as it can).</p>
+          <p>A block level element has a top and a bottom margin, whereas an inline 
+          element does not.</p>
+          <div class="w3-theme-border" style="border-width:1px;border-style:solid;padding:5px;">
+          The &lt;div&gt; element is a block-level element.</div>
+          <div class="w3-example">
+          <h3>Example</h3>
+          <div class="w3-code notranslate htmlHigh">
+          &lt;div&gt;Hello World&lt;/div&gt;</div>
+         
+          </div>
+          
+          
+          
+          <h2>Inline Elements</h2>
+          <p>An inline element does not start on a new line.</p>
+          <p>An inline element only takes up as much width as necessary.</p>
+          <p>This is <span class="w3-theme-border" style="border-width:1px;border-style:solid;padding:5px">a &lt;span&gt; element 
+          inside</span> a paragraph.</p>
+          <div class="w3-example">
+          <h3>Example</h3>
+          <div class="w3-code notranslate htmlHigh">
+          &lt;span&gt;Hello World&lt;/span&gt;</div>
+         
+          </div>
+          
+          
+          <div class="w3-note w3-panel">
+            <p><strong>Note:</strong> An inline element cannot contain a block-level 
+            element!</p>
+          </div>    
+      </div>
+      <hr>
+
+<br>
+      <div id="classes">
+        <h1>HTML <span class="color_h1">class Attribute</span></h1>
+        <p class="intro">The HTML <code class="w3-codespan">class</code> attribute is 
+          used to specify a class for an HTML element.</p>
+          <p class="intro">Multiple HTML elements can share the same class.</p>
+         
+          
+          <h3>Using The class Attribute</h3>
+          <p>The <code class="w3-codespan">class</code> attribute is often used to point 
+          to a class name in a style sheet. It can also be used by a JavaScript to access and 
+          manipulate elements with the specific class name.</p>
+          <p>In the following example we have three <code class="w3-codespan">&lt;div&gt;</code> elements 
+          with a <code class="w3-codespan">class</code> attribute with the value of 
+          &quot;city&quot;. All of the three <code class="w3-codespan">&lt;div&gt;</code> 
+          elements will be styled equally according to the <code class="w3-codespan">.city</code> 
+          style definition in the head section:</p>
+          <h2>The Syntax For Class</h2>
+          <p>To create a class; write a period (.) character, followed by a 
+          class name. 
+          Then, define the CSS properties within curly braces &lcub;&rcub;:</p>
+
+          <div class="w3-example">
+            <h3>Example</h3>
+            <p>Create a class named "city":</p>
+            <div class="w3-code notranslate htmlHigh">
+              &lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;head&gt;<br>&lt;style&gt;<br>.city &lcub;<br>&nbsp; 
+              background-color: tomato;<br>&nbsp; color: white;<br>&nbsp; padding: 10px;<br>
+              &rcub;<br>&lt;/style&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;h2 class=&quot;city&quot;&gt;London&lt;/h2&gt;<br>
+              &lt;p&gt;London is the capital of England.&lt;/p&gt;<br><br>&lt;h2 class=&quot;city&quot;&gt;Paris&lt;/h2&gt;<br>
+              &lt;p&gt;Paris is the capital of France.&lt;/p&gt;<br><br>&lt;h2 class=&quot;city&quot;&gt;Tokyo&lt;/h2&gt;<br>
+              &lt;p&gt;Tokyo is the capital of Japan.&lt;/p&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;<br></div>
+           
+            </div>     
+      </div>
+          <br>
+       
+      
+      <div id="id_att">
+        <h1>HTML <span class="color_h1">id Attribute</span></h1>
+        <p class="intro">The HTML <code class="w3-codespan">id</code> attribute is used 
+          to specify a unique id for an HTML element.</p>
+          <p class="intro">You cannot have more than one element with the same id in an 
+          HTML document.</p>
+          <hr>
+          
+          <h3>Using The id Attribute</h3>
+          <p>The <code class="w3-codespan">id</code> attribute specifies a unique id 
+          for an HTML element. The value of the <code class="w3-codespan">id</code> 
+          attribute must be unique within the HTML document.</p>
+          <p>The <code class="w3-codespan">id</code> attribute is used to point 
+          to a specific style declaration in a style sheet. It is also used by JavaScript to access and 
+          manipulate the element with the specific id.</p>
+          <p>The syntax for id is: write a hash character (#), followed by an id name. 
+          Then, define the CSS properties within curly braces &lcub;&rcub;.</p>
+          <p>In the following example we have an <code class="w3-codespan">&lt;h1&gt;</code> element that points to the 
+          id name 
+          &quot;myHeader&quot;. This <code class="w3-codespan">&lt;h1&gt;</code> 
+          element will be styled according to the <code class="w3-codespan">#myHeader</code> 
+          style definition in the head section:</p>
+          
+          <div class="w3-example">
+            <h3>Example</h3>
+            <div class="w3-code notranslate htmlHigh">
+              &lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;head&gt;<br>&lt;style&gt;<br>#myHeader &lcub;<br>&nbsp; 
+              background-color: lightblue;<br>&nbsp; color: black;<br>&nbsp; padding: 40px;<br>&nbsp; 
+              text-align: center;<br>&rcub; <br>&lt;/style&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;h1 id=&quot;myHeader&quot;&gt;My 
+              Header&lt;/h1&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;</div>
+            
+            </div>
+            
+      </div>
+      <br>
+
+      <div id="head">
+        <h1>HTML - <span class="color_h1">The Head Element</span></h1>
+        <p class="intro">The HTML <code class="w3-codespan">&lt;head&gt;</code> element
+          is a container for the following elements:
+          <code class="w3-codespan">&lt;title&gt;</code>, <code class="w3-codespan">&lt;style&gt;</code>, 
+          <code class="w3-codespan">&lt;meta&gt;</code>, <code class="w3-codespan">&lt;link&gt;</code>, <code class="w3-codespan">&lt;script&gt;</code>, and <code class="w3-codespan">&lt;base&gt;</code>.</p>
+          <hr>
+          <h3>The HTML &lt;head&gt; Element</h3>
+          <p>The <code class="w3-codespan">&lt;head&gt;</code> element is a container for metadata (data 
+          about data) and is placed between the <code class="w3-codespan">&lt;html&gt;</code> tag and the <code class="w3-codespan">&lt;body&gt;</code> tag.</p>
+          <p>HTML metadata is data about the HTML document. Metadata is not displayed.</p>
+          <p>Metadata typically define the document title, character set, styles, scripts, and other meta information.</p>
+          <hr>
+          
+          <h3>The HTML &lt;title&gt; Element</h3>
+          <p>The <code class="w3-codespan">&lt;title&gt;</code> element defines the title of the document. 
+          The title must be text-only, and it is shown in the browser's title bar or in 
+          the page's tab.</p>
+          <p>The <code class="w3-codespan">&lt;title&gt;</code> element is required in HTML documents!</p>
+          <p>The contents of a page title is very important for search engine optimization 
+          (SEO)! The page title is used by search engine algorithms to decide the order 
+          when listing pages in search results.</p>
+          <p>The <code class="w3-codespan">&lt;title&gt;</code> element:</p>
+          <ul>
+            <li>defines a title in the browser toolbar</li>
+            <li>provides a title for the page when it is added to favorites</li>
+            <li>displays a title for the page in search engine-results</li>
+          </ul>
+          
+          <p>So, try to make the title as accurate and meaningful as possible!</p>
+          <p>A simple HTML document:</p>
+          <div class="w3-example">
+          <h3>Example</h3>
+          <div class="w3-code notranslate htmlHigh">
+          &lt;!DOCTYPE html&gt;<br>
+          &lt;html&gt;<br>&lt;head&gt;<br>
+          &nbsp;
+          &lt;title&gt;A Meaningful Page 
+           Title&lt;/title&gt;<br>
+           &lt;/head&gt;<br>
+          &lt;body&gt;<br>
+            <br>The content of the document......<br>
+            <br>&lt;/body&gt;<br>
+          &lt;/html&gt;
+          </div>
+         
+          </div>
+          <hr>          
+      </div>
+
+      <div id="layout">
+        <h1>HTML <span class="color_h1">Layout Elements and Techniques</span></h1>
+        <p class="intro">Websites often display content in multiple columns (like a magazine or 
+          a newspaper).</p>
+          
+          
+          <h4>HTML Layout Elements</h4>
+            <p>HTML has several semantic elements that define the different parts of a web page:</p>
+            <div class="w3-hide-large w3-hide-medium">
+            <div class="w3-dark-grey">
+            <img alt="HTML5 Semantic Elements" src="https://www.w3schools.com/html/img_sem_elements.gif" style="width:100%;max-width:250px;text-align:center;display:block;margin:auto">
+            </div>
+            <div style="margin:16px 0">
+              <code class="w3-codespan">&lt;header&gt;</code> - Defines a header for a document or a section<br>
+              <code class="w3-codespan">&lt;nav&gt;</code> - Defines a set of navigation links<br>
+              <code class="w3-codespan">&lt;section&gt;</code> - Defines a section in a document<br>
+              <code class="w3-codespan">&lt;article&gt;</code> - Defines an independent, 
+              self-contained content<br>
+              <code class="w3-codespan">&lt;aside&gt;</code> - Defines content aside from the content (like a sidebar)<br>
+              <code class="w3-codespan">&lt;footer&gt;</code> - Defines a footer for a document or a section<br>
+              <code class="w3-codespan">&lt;details&gt;</code> - Defines additional details 
+              that the user can open and close on demand<br>
+              <code class="w3-codespan">&lt;summary&gt;</code> - Defines a heading for the <code class="w3-codespan">&lt;details&gt;</code> element<br>
+            </div>
+            </div>
+          
+          <h2>HTML Layout Techniques</h2>
+          <p>There are four different techniques to create multicolumn layouts. Each 
+          technique has its pros and cons:</p>
+          <ul>
+            <li>CSS framework</li>
+            <li>CSS float property</li>
+            <li>CSS flexbox</li>
+            <li>CSS grid</li>
+          </ul>
+          <hr>
+      </div>
+<br>
+<br><br>
+    <div id="entities">
+      <h1>HTML <span class="color_h1">Entities</span></h1>
+        <p class="intro">Reserved characters in HTML must be replaced with character entities.</p>
+        
+        
+        <h2>HTML Entities</h2>
+        <p>Some characters are reserved in HTML.</p>
+        <p>If you use the less than (&lt;) or greater than (&gt;) signs in your text, the browser might mix them with tags.</p>
+        <p>Character entities are used to display reserved characters in HTML.</p>
+        <p>A character entity looks like this:</p>
+        <div class="w3-example">
+        <div class="w3-code notranslate htmlHigh">
+        &amp;<i>entity_name</i>;
+        <p>OR</p>
+        &amp;#<i>entity_number</i>;
+        </div></div>
+        <p>To display a less than sign (&lt;) we must write: <b>&amp;lt;</b> or <b>&amp;#60;</b></p>
+        <div class="w3-panel w3-note">
+        <p><strong>Advantage of using an entity name:</strong> An entity name is easy to remember.<br>
+        <strong>Disadvantage of using an entity name:</strong> Browsers may not support all entity names, but the support for 
+        entity numbers is good.</p>
+        </div>
+        <hr>
+    </div>
+<br>
+
+    <div id="forms">
+      <h1>HTML <span class="color_h1">Forms</span></h1>
+
+      <p class="intro">An HTML form is used to collect user input. The user input is 
+        most often sent to a server for processing. </p>
+        <hr>
+        
+        
+        <div class="w3-example">
+        <h3>Example</h3>
+        <div class="w3-code w3-padding notranslate">
+        <form action="/action_page.php" target="_blank">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe"><br><br>
+          <input type="submit" value="Submit">
+        </form> 
+        </div>
+        
+        </div>
+        
+        <h4>The &lt;form&gt; Element</h4>
+        <p>The HTML <code class="w3-codespan">&lt;form&gt;</code> element is used to 
+        create an HTML form for user input:</p>
+        <div class="w3-example">
+        <div class="w3-code notranslate htmlHigh">
+         &lt;form&gt;<br>
+         .<br>
+        <i>form elements</i><br>
+         .<br>
+         &lt;/form&gt;<br>
+        </div>
+        </div>
+        <p>The <code class="w3-codespan">&lt;form&gt;</code> element is a container for different types of input elements, 
+        such as: text fields, checkboxes, radio 
+        buttons, submit buttons, etc.</p>
+
+
+        <br>
+
+
+        <h4>The &lt;input&gt; Element</h4>
+        <p>The HTML <code class="w3-codespan">&lt;input&gt;</code> element is the most 
+        used form element. </p>
+        <p>An <code class="w3-codespan">&lt;input&gt;</code> element can be displayed in 
+        many ways, depending on the <code class="w3-codespan">type</code> 
+        attribute.</p>
+        <p>Here are some examples:</p>
+        <table class="table table-bordered ">
+         <tr>
+          <th>Type</th>
+          <th>Description</th>
+         </tr>
+         <tr>
+          <td>&lt;input type=&quot;text&quot;&gt;</td>
+          <td>Displays a single-line text input field</td>
+         </tr>
+         <tr>
+          <td>&lt;input type=&quot;radio&quot;&gt;</td>
+          <td>Displays a radio button (for selecting one of many choices)</td>
+         </tr>
+         <tr>
+          <td>&lt;input type=&quot;checkbox&quot;&gt;</td>
+          <td>Displays a checkbox (for selecting zero or more of many choices)</td>
+         </tr>
+         <tr>
+          <td>&lt;input type=&quot;submit&quot;&gt;</td>
+          <td>Displays a submit button (for submitting the form)</td>
+         </tr>
+         <tr>
+          <td>&lt;input type=&quot;button&quot;&gt;</td>
+          <td>Displays a clickable button</td>
+         </tr>
+         </table>
+        
+    </div>
+        
+   
+        <div class="w3-example" id="new">
+          <h3>New Example</h3>
           <div class="w3-code notranslate htmlHigh">
           &lt;!DOCTYPE html&gt;<br>
           &lt;html&gt;<br>&lt;head&gt;<br>&lt;title&gt;Page Title&lt;/title&gt;<br>
@@ -178,34 +856,166 @@
           </div>
       </div>
 
-      <div class="html-basics">
-        <h1>HTML Basics</h1>
-        <p>All HTML documents must start with a document type declaration: &lt;!DOCTYPE html&gt;.  </p>
-            <p>The HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt;.</p>
-      </div>
- 
-      <div class="w3-example" id="part1">
-        <h1>html editor</h1>
+      <br>
+
+      <div id="form_attr">
+        <h1>HTML <span class="color_h1">Form Attributes</span></h1>
+
+
+        <h3>The Action Attribute</h3>
+        <p>The <code class="w3-codespan">action</code> attribute defines the action to be performed when the form is submitted.</p>
+        <p>Usually, the form data is sent to a file on the server when the user clicks on the submit button.</p>
+        <p>In the example below, the form data is sent to a file called &quot;action_page.php&quot;. 
+        This file contains a server-side script that handles the form data:</p>
+        <div class="w3-example">
         <h3>Example</h3>
+          <p>On submit, send form data to &quot;action_page.php&quot;:</p>
         <div class="w3-code notranslate htmlHigh">
-        &lt;!DOCTYPE html&gt;<br>
-        &lt;html&gt;<br>&lt;head&gt;<br>&lt;title&gt;Page Title&lt;/title&gt;<br>
-        &lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;h1&gt;This is a Heading&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br><br>
-        &lt;/body&gt;<br>&lt;/html&gt;
+         &lt;form action="/action_page.php"&gt;<br>&nbsp; &lt;label for=&quot;fname&quot;&gt;First 
+          name:&lt;/label&gt;&lt;br&gt;<br>&nbsp; &lt;input type=&quot;text&quot; id=&quot;fname&quot; name=&quot;fname&quot; 
+          value=&quot;John&quot;&gt;&lt;br&gt;<br>&nbsp; &lt;label for=&quot;lname&quot;&gt;Last name:&lt;/label&gt;&lt;br&gt;<br>&nbsp; 
+          &lt;input type=&quot;text&quot; id=&quot;lname&quot; name=&quot;lname&quot; value=&quot;Doe&quot;&gt;&lt;br&gt;&lt;br&gt;<br>&nbsp; 
+          &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;<br>&lt;/form&gt;
         </div>
-    </div>
+       
+        </div>
+        <p><strong>Tip:</strong> If the <code class="w3-codespan">action</code> attribute is omitted, the action is set to the current page.</p>
+        <hr>
 
-    <div class="html-basics">
-      <h1>HTML Basics</h1>
-      <p>All HTML documents must start with a document type declaration: &lt;!DOCTYPE html&gt;.  </p>
-          <p>The HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt;.</p>
-    </div>
+        <h3>The Target Attribute</h3>
+        <p>The <code class="w3-codespan">target</code> attribute specifies where to 
+        display the response that is received after submitting the form.</p>
+        <p>The <code class="w3-codespan">target</code> attribute can have one of the 
+        following values:</p>
+        <table class="ws-table-all notranslate"> 
+          <tr>
+            <th style="width:20%">Value</th>
+            <th>Description</th>
+          </tr>  
+          <tr>
+            <td>_blank</td>
+            <td>The response is displayed in a new window or tab</td>
+          </tr>
+          <tr>
+            <td>_self</td>
+            <td>The response is displayed in the current window</td>
+          </tr>
+          <tr>
+            <td>_parent</td>
+            <td>The response is displayed in the parent frame</td>
+          </tr>
+          <tr>
+            <td>_top</td>
+            <td>The response is displayed in the full body of the window</td>
+          </tr>
+          <tr>
+            <td><i>framename</i></td>
+            <td>The response is displayed in a named iframe</td>
+          </tr>
+          </table>
+        <p>The default value is <code class="w3-codespan">_self</code> which means that 
+        the response will open in the current window.</p>
+      </div>
+      <br>
 
-<div class="foo" style="width: 1100px; margin-left: -50px;">
-  <app-footer></app-footer>
+      <div id ="form_elements">
+        <h1>HTML <span class="color_h1">Form Elements</span></h1>
 
-</div>
+        <p class="intro">This section describes all the different HTML form elements. </p>
+        <hr>
+        
+        <h2>The HTML &lt;form&gt; Elements</h2>
+        <p>The HTML <code class="w3-codespan">&lt;form&gt;</code> element can contain one or more of the following form elements:</p>
+        <ul>
+        <li> <code class="w3-codespan">&lt;input&gt;</code></li>
+          <li> <code class="w3-codespan">&lt;label&gt;</code></li>
+          <li> <code class="w3-codespan">&lt;select&gt;</code></li>
+        <li> <code class="w3-codespan">&lt;textarea&gt;</code></li>
+        <li> <code class="w3-codespan">&lt;button&gt;</code></li>
+        <li> <code class="w3-codespan">&lt;fieldset&gt;</code></li>
+          <li> <code class="w3-codespan">&lt;legend&gt;</code></li>
+          <li> <code class="w3-codespan">&lt;datalist&gt;</code></li>
+          <li> <code class="w3-codespan">&lt;output&gt;</code></li>
+        <li> <code class="w3-codespan">&lt;option&gt;</code></li>
+        <li> <code class="w3-codespan">&lt;optgroup&gt;</code></li>
+        </ul>
+        <hr>
+      </div>
+
+      <div id ="form_input_types">
+        <h1>HTML <span class="color_h1">Input Types</span></h1>
+        <p class="intro">This chapter describes the different types for the HTML <code class="w3-codespan">&lt;input&gt;</code> element. </p>
+        <hr>
+        
+        <h2>HTML Input Types</h2>
+        <p>Here are the different input types you can use in HTML:</p>
+        <ul>
+          <li><code class="w3-codespan">&lt;input type=&quot;button&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;checkbox&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;color&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;date&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;datetime-local&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;email&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;file&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;hidden&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;image&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;month&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;number&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;password&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;radio&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;range&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;reset&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;search&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;submit&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;tel&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;text&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;time&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;url&quot;&gt;</code></li>
+          <li><code class="w3-codespan">&lt;input type=&quot;week&quot;&gt;</code></li>
+        </ul>
+        
+        <div class="w3-panel w3-note">
+        <p><strong>Tip:</strong> The default value of the <code class="w3-codespan">type</code> attribute 
+        is 
+        &quot;text&quot;.</p>
+        </div>
+      </div>
       
+      <hr>
+
+      <br>
+      <div id="input_attr">
+        <h1>HTML <span class="color_h1">Input Attributes</span></h1>
+        <p class="intro">This chapter describes the different attributes for the HTML <code class="w3-codespan">&lt;input&gt;</code> element. </p>
+        
+        <h2>The value Attribute</h2>
+        <p>The input <code class="w3-codespan">value</code> attribute specifies an initial value for an input field:</p>
+        <div class="w3-example">
+        <h3>Example</h3>
+          <p>Input fields with initial (default) values:</p>
+        <div class="w3-code notranslate htmlHigh">
+        &lt;form&gt;<br>
+        &nbsp; &lt;label for=&quot;fname&quot;&gt;First name:&lt;/label&gt;&lt;br&gt;<br>&nbsp; &lt;input type=&quot;text&quot; 
+          id=&quot;fname&quot; name=&quot;fname&quot; value=&quot;John&quot;&gt;&lt;br&gt;<br>&nbsp; &lt;label for=&quot;lname&quot;&gt;Last 
+          name:&lt;/label&gt;&lt;br&gt;<br>&nbsp; &lt;input type=&quot;text&quot; id=&quot;lname&quot; name=&quot;lname&quot; 
+          value=&quot;Doe&quot;&gt;<br>&lt;/form&gt;
+
+        </div>
+      </div>
+      
+
+
+
+
+  
+
+    
+
+    <div class="foo" style="width: 1100px; margin-left: -50px;">
+      <app-footer></app-footer>
+
     </div>
+          
+</div>
 
 
